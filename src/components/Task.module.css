@@ -47,6 +47,8 @@
     font-weight: bold;
     font-size: 0.875rem;
 
+    cursor: pointer;
+
     transition: 0.2s;
     transform: translateY(-50%);
 }

@@ -6,14 +6,18 @@ interface Task {
 }
 
 export function Task () {
+    function handleNewTask () {
+        
+    }
+
+
     return (
         <div className={styles.taskForm}>
             <input 
-                name="input" 
                 className={styles.taskForm}
                 placeholder='Adicione uma nova tarefa'
             />
-            <button type='submit'>
+            <button type='submit' onClick={handleNewTask}>
                 Criar
                 <PlusCircle size={16} color="#f2f2f2" weight="bold"/>
             </button>
